@@ -5,3 +5,14 @@ html, body {
 canvas {
   display: block;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  border: 10px black solid;
+}
