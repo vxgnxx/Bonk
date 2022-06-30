@@ -11,7 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(236, 240, 243);
+  background-color: #ecf0f3;
 }
 
 canvas {
