@@ -15,7 +15,7 @@ body {
 }
 
 canvas {
-  border: 10px black solid;
+  border: 10px #3d52d53 solid;
   border-radius: 5px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.589);
 }
