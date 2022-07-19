@@ -40,9 +40,9 @@ function setup() {
 }
 
 function draw() {
-  background(color(13, 24, 33));
+  background(color(37, 38, 39));
   // Creates ball
-  fill(color(240, 244, 239))
+  fill(color(236, 240, 243))
   circle(xBall, yBall, diameter);
   createRacket(xPlayer, yPlayer);
   createRacket(xOponent, yOponent);
@@ -64,13 +64,13 @@ function createScoreboard() {
   stroke(color(13, 24, 33))
   textAlign(CENTER)
   textSize(16)
-  fill(color(180, 205, 237));
+  fill(color(236, 240, 243));
   rect(180,10,40,20)
-  fill(color(13, 24, 33));
+  fill(color(37, 38, 39));
   text(playerScore, 200, 26);
-  fill(color(180, 205, 237));
+  fill(color(236, 240, 243));
   rect(380,10,40,20)
-  fill(color(13, 24, 33));
+  fill(color(37, 38, 39));
   text(oponentScore, 400,26)
 }
 
